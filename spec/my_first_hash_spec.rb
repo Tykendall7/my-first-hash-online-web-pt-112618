@@ -8,7 +8,7 @@ context "Challenge I: Instantiating Hashes" do
       expect(my_hash).to be_a(Hash)
       expect(my_hash.keys.count).to_not eq(0)
     end
-  end
+  end 
 end
 
 context "Challenge II: Hash with Data" do 
